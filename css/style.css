@@ -1,0 +1,1066 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family:'Montserrat';
+    transition: .3s;
+}
+
+@font-face {
+    font-family:'Montserrat';
+    src: url(../fonts/Montserrat-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family:'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family:'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family:'Montserrat';
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.log img {
+    width: 130px;
+    height: 38px;
+}
+
+nav {
+    display: flex;
+    gap: 38px;
+}
+
+nav a {
+    color: black;
+}
+
+.header-icon {
+    display: flex;
+    gap: 13px;
+}
+
+.header-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 64px;
+    width: 694px;
+}
+
+.banner a {
+    background-color: #DF9300;
+    width: 450px;
+    height: 115px;
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    padding: 30px 15px;
+}
+
+.banner-img {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.banner-image img {
+    width: 600px;
+    height: 315px;
+}
+
+/* katalog */
+.katalog {
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 48px;
+    padding-bottom: 50px;
+}
+
+.katalog-input {
+    display: flex;
+    gap: 20px;
+}
+
+input {
+    width: 550px;
+    height: 50px;
+    padding: 20px;
+    background: #EFEFEF;
+    font-size: 30px;
+    font-weight: 400;
+    outline: none;
+}
+
+select {
+    width: 550px;
+    height: 50px;
+    padding: 0 20px;
+    background: #EFEFEF;
+    font-size: 30px;
+    font-weight: 400;
+    outline: none;
+}
+
+.katalog-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.katalog-card {
+    height: 550px;
+    width: 350px;
+    background: #EFEFEF;
+    margin: 50px 0;
+    position: relative;
+}
+
+.katalog-card:hover {
+    transform: scale(1.05);
+}
+
+.katalog-card img {
+    width: 350px;
+    height: 350px;
+    padding-bottom: 10px;
+}
+
+.katalog-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px 20px 10px;
+    height: 200px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title p {
+    color: #7C7C7C;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price a {
+    background: #DF9300;
+    width: 180px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.heart img {
+    width: 40px;
+    height: 47px;
+}
+
+.pages {
+    display: flex;
+    font-size: 32px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pages p {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.numbers p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers p:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.num {
+    background-color: #414141;
+    color: white;
+}
+
+/* news */
+.news {
+    background: #D8F1FF;
+    border-radius: 15px;
+    padding: 100px 20px 50px;
+}
+
+.news-card {
+    display: flex;
+    gap: 34px;
+    padding: 20px;
+}
+
+.news-card:hover {
+    background: #ffffff;
+}
+
+.news-card img {
+    width: 500px;
+    height: 300px;
+}
+
+.news-text {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.news-text p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+span {
+    color: #797979;
+    cursor: pointer;
+}
+
+/*  */
+.about {
+    padding-top: 100px;
+}
+
+.about-text {
+    display: flex;
+    gap: 80px;
+}
+
+.position {
+    position: relative;
+    height: 460px;
+    width: 1130px;
+}
+
+.about-text img {
+    width: 360px;
+    height: 460px;
+}
+
+.about-text p {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.about-text2 {
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    top: 380px;
+}
+
+.about-text2 img {
+    width: 360px;
+    height: 460px;
+}
+
+.about-text2 p {
+    width: 690px;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 150px;
+}
+
+.logo img {
+    position: absolute;
+    top: 71%;
+    width: 250px;
+    height: 100px;
+    left: 40%;
+}
+
+/*  */
+.contact {
+    margin-top: 500px;
+    background: #D8F1FF;
+}
+
+.contact-content {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.contact-cards {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    gap: 20px;
+}
+
+.contact-card {
+    background: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+.contact-card h2 {
+    padding: 0;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone a {
+    color: black;
+}
+
+.contact-input {
+    display: flex;
+    background: white;
+    gap: 25px;
+    padding: 15px;
+}
+
+.contact-input input {
+    width: 280px;
+    font-size: 15px;
+}
+
+.contact-input button {
+    background: #DF9300;
+    width: 185px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+}
+
+/* tovar */
+.tovar {
+    padding: 50px 0;
+}
+
+.tovar-content {
+    display: flex;
+    gap: 100px;
+}
+
+.tovar-image {
+    display: flex;
+    align-items: center;
+}
+
+.tovar-image img {
+    width: 400px;
+    height: 450px;
+}
+
+.img-col {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.img-col img {
+    width: 200px;
+    height: 200px;
+}
+
+.tovar-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 430px;
+}
+
+.tovar-text a {
+    color: white;
+}
+
+.tovar-text h3 {
+    font-size: 36px;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.size {
+    color: #6D6D6D;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.size select {
+    width: 430px;
+}
+
+.tovar-text button {
+    width: 280px;
+    height: 60px;
+    background: #DF9300;
+    color: white;
+    font-size: 24px;
+}
+
+/* korzina */
+.kor {
+    padding: 50px 0;
+}
+
+.kor h2 {
+    padding-bottom: 30px;
+}
+
+.korzina-head {
+    display: flex;
+    justify-content: flex-end;
+    gap: 70px;
+    font-size: 30px;
+    background: #EAEAEA;
+    padding: 50px 60px;
+}
+
+.one {
+    display: flex;
+    gap: 160px;
+}
+
+.two {
+    display: flex;
+    gap: 60px;
+}
+
+.korzina-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.korzina-img {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.kor-name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 230px;
+}
+
+.kor-name h4 {
+    font-size: 26px;
+}
+
+.kor-name p {
+    color: #818181;
+    font-size: 24px;
+}
+
+.krest img {
+    width: 40px;
+}
+
+.krest img:hover {
+    opacity: 0.5;
+}
+
+.kor-img img {
+    width: 180px;
+    height: 180px;
+}
+
+.kol {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.kol-img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.kol-img img {
+    width: 40px;
+}
+
+.kol-img img:hover {
+    transform: scale(1.1);
+}
+
+.korzina-but {
+    display: flex;
+    justify-content: end;
+    padding-top: 60px;
+}
+
+.korzina a {
+    background: #DF9300;
+    width: 390px;
+    height: 90px;
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+/* Оформление */
+.zak {
+    padding: 50px 0;
+}
+
+.zak-head {
+    height: 100px;
+    background: #EAEAEA;
+    padding: 0 40px;
+    display: flex;
+    gap: 15px;
+    font-size: 32px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.zak-head h5 {
+    font-size: 32px;
+}
+
+.zakaz {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zakaz h3 {
+    padding-bottom: 50px;
+}
+
+.zakaz h4 {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 30px 0 20px 0;
+}
+
+.zakaz-card {
+    width: 545px;
+}
+
+.zakaz-input {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.inp {
+    display: flex;
+    gap: 45px;
+}
+
+.inp input {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inputs input {
+    width: 545px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.komm input {
+    height: 170px;
+    font-size: 24px;
+    padding-bottom: 130px;
+}
+
+.zakaz-card-two {
+    display: flex;
+    flex-direction: column;
+    width: 545px;
+}
+
+.rectangle {
+    width: 545px;
+    height: 50px;
+    background: #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.zakaz h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.zakaz-tovar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.total-grey {
+    width: 270px;
+    height: 50px;
+    background: #EAEAEA;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.total-price {
+    padding-right: 20px;
+}
+
+.pay {
+    width: 545px;
+    height: 50px;
+    background: #EAEAEA;
+    padding: 10px 0 0 20px;
+    margin-bottom: 40px;
+}
+
+.pay-card {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.pay-card input {
+    width: 17px;
+    height: 17px;
+}
+
+.pay-card p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.zakaz-card-two button {
+    width: 396px;
+    height: 82px;
+    background: #DF9300;
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding: 50px 0;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: black;
+}
+
+.place a {
+    color: black;
+}
+
+.foot-logo img {
+    width: 200px;
+    height: 60px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 711px) {
+    body {
+        padding: 20px 0;
+        height: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 200px;
+    }
+    
+    header {
+        width: 100%;
+    }
+
+    .banner {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner a {
+        width: 225px;
+        height: 55px;
+        font-size: 21px;
+        padding: 15px 7px;
+    }
+
+    .banner-image img {
+        width: 200px;
+        height: 105px;
+    }
+    .row img {
+        width: 100px;
+        height: 75px;
+    }
+
+    .news {
+        background: none;
+    }
+
+    .news-cards {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .news-card {
+        width: 190px;
+        flex-direction: column;
+    }
+
+    .news-card img {
+        width: 190px;
+        height: auto;
+    }
+
+    .news-text {
+        width: 190px;
+    }
+
+    h3 {
+        
+        font-size: 18px;
+    }
+
+    .news-text p {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .position {
+        height: 400px;
+    }
+
+    .about-text2 {
+        display: none;
+    }
+
+    .about-text {
+        gap: 10px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        width: 280px;
+    }
+
+    .about img {
+        width: 150px;
+        height: auto;
+    }
+
+    .contact {
+        background: none;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+     
+    .contact-content {
+        flex-wrap: wrap;
+    }
+
+    .contact-card {
+        width: 200px;
+    }
+
+    .contact-input {
+        width: 200px;
+    }
+
+    .tovar {
+        padding: 0;
+    }
+
+    .tovar-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-col {
+        display: none;
+    }
+
+    .size select {
+        width: 200px;
+    }
+
+    .but {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .tovar-text button {
+        width: 200px;
+        height: 50px;
+    }
+
+    .korzina-card h4 {
+        font-size: 20px;
+    }
+
+    .korzina-card p {
+        font-size: 14px;
+    }
+
+    .kor-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .korzina-head {
+        display: none;
+    }
+
+    .krest img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .kol {
+        gap: 10px;
+    }
+
+    .kol-img img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .block {
+        display: none;
+    }
+
+    .kor-name {
+        width: 150px;
+    }
+
+    .korzina-but a {
+        width: 250px;
+        height: 70px;
+        font-size: 24px;
+    }
+
+    .zak-head {
+        margin-bottom: 0;
+    }
+
+    .zak-head h5 {
+        font-size: 22px;
+    }
+
+    .zakaz {
+        flex-direction: column;
+    }
+
+    .inp {
+        gap: 10px;
+    }
+
+    .zakaz h4 {
+        font-size: 18px;
+    }
+
+    .zakaz-card h3 {
+        padding: 40px 0 10px 0;
+    }
+
+    .zakaz-input input {
+        width: 220px;
+    }
+
+    .inputs input {
+        width: 400px;
+    }
+
+    .komm input {
+        width: 400px;
+    }
+
+    .zakaz-card-two h3 {
+        padding: 40px 0 10px 0;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .zakaz-tovar {
+        justify-content: space-between;
+        width: 450px;
+    }
+
+    .zakaz h5  {
+        font-size: 20px;
+    }
+
+    .total {
+        width: 450px;
+    }
+
+    .pay {
+        width: 450px;
+    }
+
+    .foot-logo {
+        display: none;
+    }
+ }
